@@ -1,0 +1,144 @@
+@charset "utf-8";
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+  background-image: url(/images/fundo-cinza.jpg);
+}
+.habilitado{
+	display:inline-block;
+}
+.desabilitado{
+	display: none;
+}
+.msg{
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 14pt;
+}
+.erro{
+	color: #FF0000;	
+}
+.sucesso{
+	color: #0000FF;
+}
+.rotulo{
+	font-weight: bold;
+}
+.letra{
+	border: #000 1px solid;
+}
+input[type="text"],
+button{
+	height: 50px;
+	font-size: 100%;
+	border: #000 1px solid;
+	margin-bottom: 10px;
+}
+.corpo{
+	border: #000 1px solid;
+	width: 90%;
+	margin: auto;
+	padding-bottom: 150px;
+	min-height: 400px;
+	height: auto;
+	/*
+	padding: 50px;
+	*/
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+span{
+	margin: 4px;
+}
+
+.parteEscrito{
+	float: left;
+}
+.desenho{
+	min-width: 300px;
+	width: auto;
+	float: right;
+}
+.bnt[disabled="disabled"]:hover{
+	cursor: auto;
+}
+.bnt:hover{
+	cursor: pointer;
+}
+#bntGeraJogador, #bntTentar{
+  background-color: black;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#bntNovoJogo, #bntResponder{
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.entrada:focus{
+	background-color: #eee;
+}
+.letras{
+	letter-spacing: 0.26em;
+	margin: 0.25em 0 0 30px;
+	font-size: 20px;
+}
+.letras{
+	color: red;
+	margin-left: auto;
+	margin-right: auto;
+}
+.alinhar{
+	font-size: 16pt;
+	text-align: center;
+}
+.alinhar .rotulo{
+	display: block;
+}
+.pergunta{
+	text-transform: uppercase;
+	font-size: 18pt;
+	font-weight: bold;
+}
+.preenchimento{
+	font-size: 16pt;
+}
+.preenchimento .rotulo{
+	text-transform: uppercase;
+}
+.gerador{
+	width: 100%;
+	text-transform: uppercase;
+	text-align: center;
+}
+.selecionado{
+	text-transform: uppercase;
+	font-size: 20pt;
+	font-weight: bold;
+}
+.invisivel{
+	visibility: hidden;
+}
+.proximo{
+	display: block;
+}
