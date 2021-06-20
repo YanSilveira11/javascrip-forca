@@ -75,7 +75,7 @@ resposta[1] = "Luffy";
 resposta[2] = "Piolho";
 resposta[3] = "Ovo";
 
-var imagem = new Array();
+var img = new Array();
 img[0] = "images/forca.png";
 img[1] = "images/forca1.png";
 img[2] = "images/forca2.png";
