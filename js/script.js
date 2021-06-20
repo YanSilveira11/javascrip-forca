@@ -89,8 +89,8 @@ var letraErrada = new Array();
 var todasLetras = new Array();
 var historico = new Array();
 
-$(document).ready(function start(){
-	$("#forca").append("<img id='imgForca' src='" + imgimgimg[0] + "' width='50%' />");
+$(document).ready(function inicio(){
+	$("#forca").append("<img id='imgForca' src='" + img[0] + "' width='50%' />");
 	ganhou = false;
 	perdeu = false;
 	faseAtual = 1;
